@@ -14,4 +14,4 @@ include_directories(SFML_INCLUDE_DIR)
 
 find_package(SFML 2.5.1 COMPONENTS system window graphics network audio)
 
-target_link_libraries (tree_game sfml-graphics sfml-window sfml-system)
+target_link_libraries (tree_game sfml-graphics sfml-window sfml-system sfml-audio)
